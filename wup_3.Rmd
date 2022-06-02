@@ -61,4 +61,4 @@ The middle-front and front-back have confidence intervals are less than zero, it
 
 ## Conclusions
 
-
+After reviewing the data it can be concluded that the people in the back row drank the most alcohol giving them the highest mean of 9.62, despite being the smallest amount of people. The middle row has 83 people and the front row has 33 people but both still had a mean lower than the back row. 
