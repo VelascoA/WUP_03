@@ -47,6 +47,18 @@ The mean or those sitting in the back who have consumed alcohol 9.62. Almost thr
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The anova has a significantly small result a tukey should be the following step. 
+
+```{r}
+plot(TukeyHSD(model1))
+```
+The middle-front and front-back have confidence intervals are less than zero, it can be assured the results are vastly different.
+
 ## Conclusions
 
 
