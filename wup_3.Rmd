@@ -39,6 +39,12 @@ Based on the box plot those who sit in the back row seem to consume more alcohol
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+The mean or those sitting in the back who have consumed alcohol 9.62. Almost three times as much as the middle seats who average out to a mean of 3.28. Not coming close to the front row only having a mean of 1.8 consumption rate of alcohol. 
+
 ## Inferential Tests
 
 ## Conclusions
